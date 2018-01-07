@@ -1,0 +1,125 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h1{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+}
+#logo{
+  margin-left:10px;
+  height: 50px;
+}
+.topspan{
+  right: 0px;
+  height: 69px;
+  position: fixed;
+}
+.content{
+  padding-top: 70px;
+}
+.featuredimage{
+  height:200px;
+  width:300px;
+}
+a{
+  color: seashell;
+  font-size: 22px;
+  text-decoration: underline;
+  margin: 15px;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+#missionback {
+  height: 700px;
+  width: 1200px;
+}
+#backimage1{
+  z-index: -1;
+  position: absolute;
+  align-items: center;
+
+}
+#text{
+  margin-bottom: 270px;
+  margin-top: 270px;
+  height: 160px;
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  justify-content: center;
+
+}
+#Mission{
+  display: flex;
+  justify-content: center;
+}
+#FeaturedTea{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+#FeaturedHead{
+  width: 1000px;
+  background-color: black;
+}
+
+#avetea{
+  margin-left: 175px;
+}
+#bizzaretea{
+  margin-right: 175px;
+}
+.bigdiv{
+  display: flex;
+  justify-content: center;
+}
+#Locations{
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  opacity: 1;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+#backimage2{
+  z-index: -1;
+  position: absolute;
+  align-items: center;
+}
+#loc{
+  width: 1200px;
+}
+
+#Contact{
+  height:200px;
+  text-align: center;
+  margin-top: 250px;
+}
+#Copy{
+  margin-left: 20px;
+}
